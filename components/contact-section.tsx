@@ -49,16 +49,14 @@ export function ContactSection() {
       <div className="pt-8 border-t border-border space-y-4">
         <div className="p-6 rounded-xl bg-accent/10 border border-accent/30 shadow-sm animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <p className="text-foreground font-medium leading-relaxed text-lg">
-            I am actively seeking full-time, salaried (PAYE) AI Engineering roles in the UK. I am available for
-            immediate interviews.
+            I am actively seeking part-time architecting and design and management roles.
           </p>
         </div>
 
         <div className="p-6 rounded-xl bg-secondary border border-border shadow-sm animate-fade-in" style={{ animationDelay: '0.5s' }}>
           <h3 className="text-lg font-semibold text-foreground mb-2">Join the Inevitable Train</h3>
           <p className="text-muted-foreground leading-relaxed">
-            If you are a passionate and confident developer, connect with me on LinkedIn to discuss future,
-            collaborative opportunities.
+            Connect with me on LinkedIn to discuss future, collaborative opportunities.
           </p>
         </div>
       </div>

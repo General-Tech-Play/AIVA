@@ -1,5 +1,13 @@
 [
   {
+    "title": "SentinelOps",
+    "description": "Compliance-aware advisory and governance layer for high-risk, regulated environments. Providing structured decision governance that protects human decision rights while ensuring regulatory compliance.",
+    "technology_tags": ["Compliance Governance", "Risk Management", "Audit Trail", "Regulatory Frameworks", "Decision Authority", "Immutable Ledger"],
+    "link": "https://github.com/aegis-architecture/SentinelOps/",
+    "linkType": "github",
+    "buttonText": "View Architecture"
+  },
+  {
     "title": "PACE",
     "description": "An AI-powered Lead Conversion Specialist for UK estate agencies, automating instant lead engagement, qualification, and scheduling via voice AI and Google Workspace integration to maximize conversion rates and ROI.",
     "technology_tags": ["Twilio", "ElevenLabs", "n8n", "Google Sheets", "Google Calendar"],

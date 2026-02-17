@@ -22,7 +22,7 @@ export function AboutSection() {
     <section id="about" className="pt-[130px] md:pt-[50px] space-y-8 animate-fade-in">
       <div className="space-y-2">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent via-primary to-accent-foreground tracking-tight leading-tight animate-fade-in hover:scale-105 transition-transform duration-300 cursor-default">
-          AI Value Architect & Agentic RAG Specialist
+          AI Value Architect & Product Manager
         </h2>
         <p className="text-lg md:text-xl lg:text-2xl font-medium text-muted-foreground animate-fade-in" style={{ animationDelay: '0.2s' }}>
           Bridging Business Value with AI Engineering Excellence
