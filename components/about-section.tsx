@@ -22,7 +22,7 @@ export function AboutSection() {
     <section id="about" className="pt-[130px] md:pt-[50px] space-y-8 animate-fade-in">
       <div className="space-y-2">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent via-primary to-accent-foreground tracking-tight leading-tight animate-fade-in hover:scale-105 transition-transform duration-300 cursor-default">
-          AI Value Architect & Product Manager
+          Agentic AI Architect & Product Strategist
         </h2>
         <p className="text-lg md:text-xl lg:text-2xl font-medium text-muted-foreground animate-fade-in" style={{ animationDelay: '0.2s' }}>
           Bridging Business Value with AI Engineering Excellence
@@ -31,7 +31,7 @@ export function AboutSection() {
       <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
         <div className="p-8 rounded-xl bg-gradient-to-br from-accent/15 via-primary/10 to-accent/5 border-2 border-accent/30 shadow-lg">
           <p className="text-xl lg:text-2xl font-semibold text-foreground leading-relaxed">
-            <span className="text-accent font-bold">AI Value Architect</span> specializing in the complete
+            <span className="text-accent font-bold">Agentic AI Architect</span> specializing in the complete
             AI lifecycle: <strong className="text-primary">diagnosing a problem</strong>,{" "}
             <strong className="text-primary">designing the best cost-efficient and high-quality solutions</strong>,{" "}
             <strong className="text-primary">developing the solution</strong>, <strong className="text-primary">deploying it</strong>, and{" "}

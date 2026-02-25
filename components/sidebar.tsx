@@ -31,8 +31,8 @@ export function Sidebar({ onClose }: { onClose?: () => void }) {
           </div>
 
           <div className="space-y-2">
-            <p className="text-sm md:text-base text-muted-foreground font-medium tracking-wide">AI Value Architect</p>
-            <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">AI Memory System Specialist</p>
+            <p className="text-sm md:text-base text-muted-foreground font-medium tracking-wide">Agentic AI Architect</p>
+            <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">Browser AI Agents Specialist</p>
             <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">Passionate about building intelligent systems that drive real-world value through AI innovation and user-centric design.</p>
           </div>
         </div>
