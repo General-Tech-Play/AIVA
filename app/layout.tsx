@@ -11,8 +11,8 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "IDODE DESTINY M",
-  "jobTitle": "AI Value Architect & Agentic RAG Specialist",
-  "description": "Expert in Agentic RAG, Knowledge Graphs, RAG Systems, and Data Engineering, delivering innovative AI solutions for enterprises.",
+  "jobTitle": "AI Automation Specialist",
+  "description": "Expert in Business Workflow Automation, Customer Support Automation, Booking Systems, and Inventory Management, delivering innovative AI solutions for enterprises.",
   "url": "https://Idode.io", // Replace with actual URL
   "sameAs": [
     "https://github.com/Holious-tech",
@@ -20,42 +20,43 @@ const jsonLd = {
     // Add LinkedIn or other profiles if available
   ],
   "knowsAbout": [
+    "Business Workflow Automation",
+    "Customer Support Automation", 
+    "Booking System Automation",
+    "Inventory Management",
     "Artificial Intelligence",
-    "Retrieval-Augmented Generation (RAG)",
-    "Knowledge Graphs",
-    "Data Engineering",
-    "Machine Learning",
     "AI Prototypes",
     "Enterprise AI Solutions",
+    "Process Automation",
+    "Time Savings Automation",
+    "ROI Optimization",
   ],
 }
 
 export const metadata: Metadata = {
-  title: "AI Value Architect",
+  title: "AI Automation Specialist",
   metadataBase: new URL('https://Idode.io'),
   description:
-    "Expert AI Value Architect specializing in Agentic RAG, Knowledge Graphs, RAG Systems, and Data Engineering. Delivering high-impact AI solutions, prototypes, and scalable code for enterprises. Portfolio showcasing AI engineering expertise.",
+    "Expert AI Automation Specialist specializing in business workflow automation, customer support automation, booking systems, and inventory management. Delivering high-impact AI solutions, prototypes, and scalable automation for enterprises. Portfolio showcasing AI automation expertise.",
   keywords: [
-    "AI Value Architect",
-    "Agentic RAG Specialist",
-    "Knowledge Graphs",
-    "RAG Systems",
-    "Data Engineering",
+    "AI Automation Specialist",
+    "Business Workflow Automation",
+    "Customer Support Automation",
+    "Booking System Automation", 
+    "Inventory Management",
     "AI Prototypes",
     "Enterprise AI Solutions",
     "Next.js Developer",
     "AI Engineering",
-    "Retrieval-Augmented Generation",
-    "Machine Learning Engineer",
+    "Process Automation",
     "AI Portfolio",
-    "Semantic Search",
-    "ETL Pipelines",
-    "Vector Embeddings",
-    "AI Innovation",
+    "Business Solutions",
+    "Time Savings",
+    "ROI Automation",
   ],
   authors: [{ name: "IDODE DESTINY M" }],
   creator: "IDODE DESTINY M",
-  publisher: "AI Value Architect Portfolio",
+  publisher: "AI Automation Specialist Portfolio",
   robots: {
     index: true,
     follow: true,
@@ -68,16 +69,16 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "IDODE DESTINY M: AI Value Architect & Agentic RAG Expert",
-    description: "Discover expertise in Agentic RAG, Knowledge Graphs, and Data Engineering. Explore AI prototypes and enterprise solutions from a leading AI specialist.",
+    title: "IDODE DESTINY M: AI Automation Specialist",
+    description: "Discover expertise in business workflow automation, customer support automation, and inventory management. Explore AI prototypes and enterprise solutions from a leading AI automation specialist.",
     url: "https://Idode.io", // Replace with actual URL when deployed
-    siteName: "AI Value Architect Portfolio",
+    siteName: "AI Automation Specialist Portfolio",
     images: [
       {
         url: "/professional-headshot.png", // Use actual image path
         width: 800,
         height: 600,
-        alt: "IDODE DESTINY M - AI Value Architect",
+        alt: "IDODE DESTINY M - AI Automation Specialist",
       },
     ],
     locale: "en_US",
@@ -85,8 +86,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "IDODE DESTINY M | AI Value Architect",
-    description: "Expert in Agentic RAG and AI engineering. View portfolio of innovative AI solutions.",
+    title: "IDODE DESTINY M | AI Automation Specialist",
+    description: "Expert in business workflow automation and AI engineering. View portfolio of innovative automation solutions.",
     images: ["/professional-headshot.png"],
   },
   icons: {
