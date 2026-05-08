@@ -5,12 +5,12 @@ export function ProjectsSection() {
   return (
     <section id="projects" className="pt-[130px] md:pt-[50px] space-y-8">
       <div className="space-y-3">
-        <h2 className="text-3xl font-bold text-foreground tracking-tight">High-Impact Projects (Prototypes)</h2>
+        <h2 className="text-3xl font-bold text-foreground tracking-tight">AI Automation Projects</h2>
         <p className="text-muted-foreground leading-relaxed">
-          Scalable AI prototypes and projects demonstrating end-to-end AI system design, including{" "}
-          <span className="text-accent font-semibold">RAG systems</span>,{" "}
-          <span className="text-accent font-semibold">knowledge graphs</span>, and{" "}
-          <span className="text-accent font-semibold">data engineering</span> solutions.
+          Business workflow automation solutions and AI-powered systems that eliminate repetitive tasks,{" "}
+          <span className="text-accent font-semibold">streamline operations</span>,{" "}
+          <span className="text-accent font-semibold">reduce costs</span>, and{" "}
+          <span className="text-accent font-semibold">drive measurable ROI</span>.
         </p>
       </div>
 
@@ -20,12 +20,14 @@ export function ProjectsSection() {
             key={index}
             title={project.title}
             description={project.description}
+            fullDescription={project.fullDescription}
             technology_tags={project.technology_tags}
             link={project.link}
             linkType={project.linkType as "github" | "kaggle" | "website"}
             index={index}
             status={project.status}
             buttonText={project.buttonText}
+            image={project.image}
           />
         ))}
       </div>

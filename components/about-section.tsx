@@ -6,15 +6,15 @@ export function AboutSection() {
   const highlights = [
     {
       icon: <CheckCircle className="w-6 h-6 text-accent" />,
-      text: "Diagnosing problems and designing cost-efficient, high-quality solutions"
+      text: "Automating repetitive tasks to save your team hours every week"
     },
     {
       icon: <Zap className="w-6 h-6 text-accent" />,
-      text: "Developing, deploying, and monitoring AI solutions for guaranteed performance"
+      text: "Creating AI solutions that work with your existing tools"
     },
     {
       icon: <Target className="w-6 h-6 text-accent" />,
-      text: "Bridging technical excellence with strategic business value"
+      text: "Delivering real business results with fast, clean implementation"
     }
   ]
 
@@ -22,37 +22,34 @@ export function AboutSection() {
     <section id="about" className="pt-[130px] md:pt-[50px] space-y-8 animate-fade-in">
       <div className="space-y-2">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent via-primary to-accent-foreground tracking-tight leading-tight animate-fade-in hover:scale-105 transition-transform duration-300 cursor-default">
-          Agentic AI Architect & Product Strategist
+          AI Automation Specialist
         </h2>
         <p className="text-lg md:text-xl lg:text-2xl font-medium text-muted-foreground animate-fade-in" style={{ animationDelay: '0.2s' }}>
-          Bridging Business Value with AI Engineering Excellence
+          Automating Business Workflows with AI
         </p>
       </div>
       <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
         <div className="p-8 rounded-xl bg-gradient-to-br from-accent/15 via-primary/10 to-accent/5 border-2 border-accent/30 shadow-lg">
           <p className="text-xl lg:text-2xl font-semibold text-foreground leading-relaxed">
-            <span className="text-accent font-bold">Agentic AI Architect</span> specializing in the complete
-            AI lifecycle: <strong className="text-primary">diagnosing a problem</strong>,{" "}
-            <strong className="text-primary">designing the best cost-efficient and high-quality solutions</strong>,{" "}
-            <strong className="text-primary">developing the solution</strong>, <strong className="text-primary">deploying it</strong>, and{" "}
-            <strong className="text-primary">monitoring to ensure the solution works exactly as promised</strong>.
+            <span className="text-accent font-bold">AI Automation Specialist</span> who helps businesses save time and money: <strong className="text-primary">finding repetitive tasks</strong>,{" "}
+            <strong className="text-primary">creating smart automation solutions</strong>,{" "}
+            <strong className="text-primary">setting up AI to handle the work</strong>, <strong className="text-primary">making sure everything works smoothly</strong>, and{" "}
+            <strong className="text-primary">delivering real results you can see</strong>.
           </p>
         </div>
 
         <p className="text-base lg:text-lg text-muted-foreground leading-relaxed">
           My diverse background includes an <span className="text-foreground font-medium">MSc in Management</span>, a{" "}
-          <span className="text-foreground font-medium">Higher Diploma in Electronics Engineering</span>, professional
-          AI Engineering and Development training with <span className="text-accent font-semibold">IBM</span>, dedicated
-          study under <span className="text-accent font-semibold">Andrew Ng</span>, and current mastery of{" "}
-          <span className="text-accent font-semibold">MLOps</span>.
+          <span className="text-foreground font-medium">Higher Diploma in Engineering</span>, professional
+          AI Engineering and Development training with <span className="text-accent font-semibold">IBM</span>, and dedicated
+          study under <span className="text-accent font-semibold">Andrew Ng</span>.
         </p>
 
         <p className="text-base lg:text-lg text-muted-foreground leading-relaxed">
-          With expertise spanning <span className="text-foreground font-medium">Agentic AI Engineering</span>,{" "}
-          <span className="text-foreground font-medium">RAG Systems</span>,{" "}
-          <span className="text-foreground font-medium">Knowledge Graphs</span>, and{" "}
-          <span className="text-foreground font-medium">Data Engineering</span>, I bridge technical excellence with
-          strategic business value in AI innovation and enterprise solutions.
+          With expertise in <span className="text-foreground font-medium">Customer Support Automation</span>,{" "}
+          <span className="text-foreground font-medium">Booking System Automation</span>,{" "}
+          <span className="text-foreground font-medium">Inventory Management</span>, and{" "}
+          <span className="text-foreground font-medium">Analytics Automation</span>, I help businesses eliminate repetitive tasks and focus on what matters most - growing their business.
         </p>
 
         <div className="space-y-4 pt-4">
@@ -82,9 +79,7 @@ export function AboutSection() {
           </button>
           {isExpanded && (
             <p className="mt-4 p-4 rounded-lg bg-muted text-muted-foreground animate-slide-down text-base leading-relaxed">
-              My work is not limited to just one aspect of AI but the whole of it, positioning me as an inevitable bridge in
-              the AI Global Business. This holistic approach ensures every solution is robust, scalable, and aligned with
-              real-world needs.
+              My approach is simple: find tasks that waste your team's time and replace them with smart AI solutions. I focus on delivering practical automation that saves you money, frees up your team, and helps your business run more efficiently. <strong className="text-accent font-semibold">AI automation is inevitable</strong> - make the smart decision and be early on it. No technical complexity - just real business results.
             </p>
           )}
         </div>

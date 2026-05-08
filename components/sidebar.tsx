@@ -5,7 +5,7 @@ import Link from "next/link"
 export function Sidebar({ onClose }: { onClose?: () => void }) {
   const navItems = [
     { label: "ABOUT", href: "#about" },
-    { label: "EXPERTISE", href: "#expertise" },
+    { label: "SERVICES", href: "#services" },
     { label: "PROJECTS", href: "#projects" },
     { label: "CONTACT", href: "#contact" },
   ]
@@ -31,9 +31,9 @@ export function Sidebar({ onClose }: { onClose?: () => void }) {
           </div>
 
           <div className="space-y-2">
-            <p className="text-sm md:text-base text-muted-foreground font-medium tracking-wide">Agentic AI Architect</p>
-            <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">Browser AI Agents Specialist</p>
-            <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">Passionate about building intelligent systems that drive real-world value through AI innovation and user-centric design.</p>
+            <p className="text-sm md:text-base text-muted-foreground font-medium tracking-wide">AI Automation Specialist</p>
+            <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">Customer Support & Booking Automation</p>
+            <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">I automate repetitive tasks to save businesses time and money.</p>
           </div>
         </div>
 
@@ -53,7 +53,7 @@ export function Sidebar({ onClose }: { onClose?: () => void }) {
 
         {/* Footer */}
         <div className="pt-6 md:pt-8 border-t border-sidebar-border mt-auto bg-gradient-to-t from-sidebar-border/20 to-transparent rounded-b-xl p-3 md:p-4">
-          <p className="text-xs text-muted-foreground">© 2025 Idode Destiny M</p>
+          <p className="text-xs text-muted-foreground">© 2026 Idode Destiny M</p>
         </div>
       </div>
     </aside>

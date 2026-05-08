@@ -5,8 +5,8 @@ import { useState } from "react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Sidebar } from "@/components/sidebar"
 import { AboutSection } from "@/components/about-section"
+import { ServicesSection } from "@/components/services-section"
 import { ProjectsSection } from "@/components/projects-section"
-import { ExpertiseSection } from "@/components/expertise-section"
 import { ContactSection } from "@/components/contact-section"
 import { ThemeChooser } from "@/components/theme-chooser"
 
@@ -46,7 +46,7 @@ export default function Home() {
       <main className={`flex-1 transition-all duration-300 ${isSidebarOpen ? "lg:ml-[28rem]" : "ml-0 lg:ml-[28rem]"} min-h-screen`}>
         <div className="max-w-4xl mx-auto px-6 py-12 lg:px-12 lg:py-16 pt-10 lg:pt-16 space-y-24">
           <AboutSection />
-          <ExpertiseSection />
+          <ServicesSection />
           <ProjectsSection />
           <ContactSection />
         </div>

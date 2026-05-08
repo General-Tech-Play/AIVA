@@ -8,9 +8,9 @@ export function ContactSection() {
           Let's Connect & Build the Future
         </h2>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          Connect for professional opportunities in <span className="text-accent font-semibold">AI engineering</span>,{" "}
-          <span className="text-accent font-semibold">data engineering</span>, and{" "}
-          <span className="text-accent font-semibold">RAG systems</span>.
+          Connect for professional opportunities in <span className="text-accent font-semibold">AI automation</span>,{" "}
+          <span className="text-accent font-semibold">workflow optimization</span>, and{" "}
+          <span className="text-accent font-semibold">business process transformation</span>.
         </p>
       </div>
 
@@ -49,7 +49,7 @@ export function ContactSection() {
       <div className="pt-8 border-t border-border space-y-4">
         <div className="p-6 rounded-xl bg-accent/10 border border-accent/30 shadow-sm animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <p className="text-foreground font-medium leading-relaxed text-lg">
-            I am actively seeking part-time architecting and design and management roles.
+            I am actively seeking part-time AI automation consulting and workflow optimization opportunities. <strong className="text-accent font-semibold">Connect with me on LinkedIn</strong> to discuss future, collaborative opportunities.
           </p>
         </div>
 
