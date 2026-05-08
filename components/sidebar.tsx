@@ -32,7 +32,7 @@ export function Sidebar({ onClose }: { onClose?: () => void }) {
 
           <div className="space-y-2">
             <p className="text-sm md:text-base text-muted-foreground font-medium tracking-wide">AI Automation Specialist</p>
-            <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">Customer Support & Booking Automation</p>
+            <p className="text-xs md:text-sm text-muted-foreground leading-relaxed"></p>
             <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">I automate repetitive tasks to save businesses time and money.</p>
           </div>
         </div>
