@@ -1,5 +1,16 @@
 [
   {
+    "title": "Restaurant Feedback Agent",
+    "description": "Automated customer feedback collection for restaurants",
+    "fullDescription": "Automated customer feedback collection for restaurants. Problem: Getting customer reviews was inconsistent. Solution: AI that automatically requests feedback after meals and analyzes responses. Result: 3x more reviews and improved customer satisfaction scores.",
+    "technology_tags": ["Twilio", "ElevenLabs", "ChatGPT", "Airtable"],
+    "link": "https://www.linkedin.com/posts/idode-destiny_aiautomation-restaurantautomation-hospitalitytech-ugcPost-7458212034715824128-380i?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-WYtsBKKBOYV4mojvjR_GaHDgq4eruYek",
+    "linkType": "website",
+    "buttonText": "See Impact",
+    "image": "/project-photos/AI Customer Feedback System1.png",
+    "contactForDemo": true
+  },
+  {
     "title": "Table Booking Bot",
     "description": "AI agent for restaurants that handles reservations 24/7",
     "fullDescription": "AI agent for restaurants that handles reservations 24/7. Problem: Manual booking was taking 3 hours/day. Solution: Automated booking system that manages tables, sends confirmations, and handles special requests. Result: Saved 20+ hours/week and increased bookings by 30%.",
@@ -7,7 +18,8 @@
     "link": "https://www.linkedin.com/in/idode-destiny/",
     "linkType": "website",
     "buttonText": "View Details",
-    "image": "/project-photos/Table Booking Bot.png"
+    "image": "/project-photos/Table Booking Bot.png",
+    "contactForDemo": true
   },
   {
     "title": "Customer Support Automation",
@@ -17,7 +29,8 @@
     "link": "https://www.linkedin.com/in/idode-destiny/",
     "linkType": "website",
     "buttonText": "See Results",
-    "image": "/project-photos/Customer Support Automation.png"
+    "image": "/project-photos/Customer Support Automation.png",
+    "contactForDemo": true
   },
   {
     "title": "Inventory Check Automation",
@@ -27,17 +40,8 @@
     "link": "https://www.linkedin.com/in/idode-destiny/",
     "linkType": "website",
     "buttonText": "View Case Study",
-    "image": "/project-photos/Inventory Check Automation.png"
-  },
-  {
-    "title": "Restaurant Feedback Agent",
-    "description": "Automated customer feedback collection for restaurants",
-    "fullDescription": "Automated customer feedback collection for restaurants. Problem: Getting customer reviews was inconsistent. Solution: AI that automatically requests feedback after meals and analyzes responses. Result: 3x more reviews and improved customer satisfaction scores.",
-    "technology_tags": ["Twilio", "ElevenLabs", "ChatGPT", "Airtable"],
-    "link": "https://www.linkedin.com/posts/idode-destiny_aiautomation-restaurantautomation-hospitalitytech-ugcPost-7458212034715824128-380i?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC-WYtsBKKBOYV4mojvjR_GaHDgq4eruYek",
-    "linkType": "website",
-    "buttonText": "See Impact",
-    "image": "/project-photos/AI Customer Feedback System1.png"
+    "image": "/project-photos/Inventory Check Automation.png",
+    "contactForDemo": true
   },
   {
     "title": "Shopify Analytics Agent",
@@ -47,7 +51,8 @@
     "link": "https://www.linkedin.com/in/idode-destiny/",
     "linkType": "website",
     "buttonText": "View Results",
-    "image": "/project-photos/Shopify Analyst Agent.png"
+    "image": "/project-photos/Shopify Analyst Agent.png",
+    "contactForDemo": true
   },
   {
     "title": "Client Onboarding Workflow",
@@ -57,6 +62,7 @@
     "link": "https://www.linkedin.com/in/idode-destiny/",
     "linkType": "website",
     "buttonText": "See Process",
-    "image": "/project-photos/Client Onboarding Workflow.png"
+    "image": "/project-photos/Client Onboarding Workflow.png",
+    "contactForDemo": true
   }
 ]

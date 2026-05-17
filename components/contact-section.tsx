@@ -49,7 +49,7 @@ export function ContactSection() {
       <div className="pt-8 border-t border-border space-y-4">
         <div className="p-6 rounded-xl bg-accent/10 border border-accent/30 shadow-sm animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <p className="text-foreground font-medium leading-relaxed text-lg">
-            I am actively seeking part-time AI automation consulting and workflow optimization opportunities. <strong className="text-accent font-semibold">Connect with me on LinkedIn</strong> to discuss future, collaborative opportunities.
+            I am open to all opportunities in AI automation consulting and workflow optimization. <strong className="text-accent font-semibold">Connect with me on LinkedIn</strong> to discuss future, collaborative opportunities.
           </p>
         </div>
 

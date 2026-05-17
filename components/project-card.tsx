@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { ImageModal } from "@/components/image-modal"
 import { ProjectDetailsModal } from "@/components/project-details-modal"
+import { ContactDemoModal } from "@/components/contact-demo-modal"
 import { Eye, Calendar, MessageCircle, Package, BarChart, Users, FileText } from "lucide-react"
 
 interface ProjectCardProps {
@@ -18,11 +19,13 @@ interface ProjectCardProps {
   status?: string
   buttonText?: string
   image?: string
+  contactForDemo?: boolean
 }
 
-export function ProjectCard({ title, description, fullDescription, technology_tags, link, linkType, index, status, buttonText, image }: ProjectCardProps) {
+export function ProjectCard({ title, description, fullDescription, technology_tags, link, linkType, index, status, buttonText, image, contactForDemo }: ProjectCardProps) {
   const [isImageModalOpen, setIsImageModalOpen] = useState(false)
   const [isDetailsModalOpen, setIsDetailsModalOpen] = useState(false)
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false)
 
   // Get the appropriate icon for each project
   const getProjectIcon = (title: string) => {
@@ -97,14 +100,34 @@ export function ProjectCard({ title, description, fullDescription, technology_ta
               </span>
             ))}
           </div>
-          <div>
-            <Button 
-              size="lg" 
-              className="gap-2 group-hover:shadow-md transition-shadow min-h-[44px] w-full"
-              onClick={() => setIsDetailsModalOpen(true)}
-            >
-              {buttonText || (linkType === "github" ? "View Code (GitHub)" : linkType === "kaggle" ? "View Project (Kaggle)" : "View Details")}
-            </Button>
+          <div className={contactForDemo ? "flex flex-col gap-3" : ""}>
+            {contactForDemo ? (
+              <>
+                <Button 
+                  size="lg" 
+                  className="gap-2 group-hover:shadow-md transition-shadow min-h-[44px] w-full"
+                  onClick={() => setIsContactModalOpen(true)}
+                >
+                  Request Demo
+                </Button>
+                <Button 
+                  size="lg" 
+                  variant="outline"
+                  className="gap-2 group-hover:shadow-md transition-shadow min-h-[44px] w-full"
+                  onClick={() => setIsDetailsModalOpen(true)}
+                >
+                  View Details
+                </Button>
+              </>
+            ) : (
+              <Button 
+                size="lg" 
+                className="gap-2 group-hover:shadow-md transition-shadow min-h-[44px] w-full"
+                onClick={() => setIsDetailsModalOpen(true)}
+              >
+                {buttonText || (linkType === "github" ? "View Code (GitHub)" : linkType === "kaggle" ? "View Project (Kaggle)" : "View Details")}
+              </Button>
+            )}
           </div>
         </CardContent>
       </Card>
@@ -124,6 +147,13 @@ export function ProjectCard({ title, description, fullDescription, technology_ta
         isOpen={isDetailsModalOpen}
         onClose={() => setIsDetailsModalOpen(false)}
         project={project}
+      />
+
+      {/* Contact Demo Modal */}
+      <ContactDemoModal
+        isOpen={isContactModalOpen}
+        onClose={() => setIsContactModalOpen(false)}
+        projectTitle={title}
       />
     </>
   )

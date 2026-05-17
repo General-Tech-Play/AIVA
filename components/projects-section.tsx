@@ -28,6 +28,7 @@ export function ProjectsSection() {
             status={project.status}
             buttonText={project.buttonText}
             image={project.image}
+            contactForDemo={project.contactForDemo}
           />
         ))}
       </div>
